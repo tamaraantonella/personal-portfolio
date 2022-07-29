@@ -11,7 +11,7 @@ function Header() {
         <h5>Hello I'm</h5>
         <h1>Tamara Antonella Frazzetta</h1>
         <h5 className="text-light">
-Fullstack developer
+          Fullstack Developer
         </h5>
         <Cta />
         <HeaderSocial/>
@@ -19,7 +19,6 @@ Fullstack developer
           <img src={ME} alt=""/>
         </div>
         <a href="#contact" className='scroll__down'>Scroll Down</a>
-
       </div>
     </header>
   )
