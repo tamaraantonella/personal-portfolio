@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.31c9be7a.css",
+    "main.js": "/portfolio-react/static/js/main.2c1815b2.js",
+    "static/media/me.png": "/portfolio-react/static/media/me.5b4541952f8c307cc2ce.png",
+    "static/media/me2.jpeg": "/portfolio-react/static/media/me2.943ef5c6124e1930a105.jpeg",
+    "static/media/Frazzetta_Tamara.pdf": "/portfolio-react/static/media/Frazzetta_Tamara.1340f950aa64da9166f8.pdf",
+    "index.html": "/portfolio-react/index.html",
+    "main.31c9be7a.css.map": "/portfolio-react/static/css/main.31c9be7a.css.map",
+    "main.2c1815b2.js.map": "/portfolio-react/static/js/main.2c1815b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31c9be7a.css",
+    "static/js/main.2c1815b2.js"
+  ]
+}
