@@ -20,10 +20,11 @@ const ExperienceBack = () => {
                 <GiCheckMark className='experience__details-icons'/><h4>ORM</h4>
             </article>
             <article className='experience__details'>
-                <GiCheckMark className='experience__details-icons'/><h4>Sequielize</h4>
+                <GiCheckMark className='experience__details-icons'/><h4>Sequelize</h4>
             </article>
-
-
+            <article className='experience__details'>
+                <GiCheckMark className='experience__details-icons'/><h4>PostgreSQL</h4>
+            </article>
         </div>
   )
 }

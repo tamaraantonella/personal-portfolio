@@ -30,8 +30,8 @@ export default function About() {
             </article>
             <article className='about__card'>
               <BsFolder className='about__icon'/>
-              <h5>Projects</h5>
-              <small>2 Bootcamp Projects</small>
+              <h5>Soft Skills</h5>
+              <small>Organized & proactive</small>
             </article>
           </div>
           <p>

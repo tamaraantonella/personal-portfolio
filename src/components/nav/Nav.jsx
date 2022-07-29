@@ -14,7 +14,7 @@ const [active, setActive] = useState('#')
       <a href="#top" onClick={() => setActive('#')} className={active==='#' ? 'active': ''} > <BiHome/></a>
       <a href="#about" onClick={() => setActive('#about')} className={active==='#about' ? 'active': ''} > <BiUser/></a>
       <a href="#experience" onClick={() => setActive('#experience')} className={active==='#experience' ? 'active': ''}> <FiBook/></a>
-      <a href="#services" onClick={() => setActive('#services')} className={active==='#services' ? 'active': ''}> <MdHomeRepairService/></a>
+      <a href="#projects" onClick={() => setActive('#projects')} className={active==='#projects' ? 'active': 'services' ? 'active': ''}> <MdHomeRepairService/></a>
       <a href="#contact" onClick={() => setActive('#contact')} className={active==='#contact' ? 'active': ''}> <MdOutlineMessage/></a>
     </nav>
   )
