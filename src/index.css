@@ -12,11 +12,11 @@
 /* Css variables */
 :root{
   --color-bg:#1f1f38;
-  --color-bg-variant:#2c2c6c;
-  --color-primary:#4db5ff;
-  --color-primary-variant: rgba(77,181,255,0.4);
+  --color-bg-variant:#2c326c;
+  --color-primary:#61a0ff;
+  --color-primary-variant: rgba(77, 124, 255, 0.4);
   --color-white: #fff;
-  --color-light:rgba (255,255,255,0.6);
+  --color-light: rgba(255,255,255,0.6);
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
@@ -53,7 +53,7 @@ h1{
 
 section {
   margin-top: 8rem;
-  height: 100vh;
+
 }
 
 section > h2, section > h5{
@@ -102,6 +102,7 @@ img{
   display: block;
   width: 100%;
   object-fit: cover;
+
 }
 
 /* media queries --> medium devices*/

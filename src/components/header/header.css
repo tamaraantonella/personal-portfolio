@@ -1,5 +1,6 @@
 header {
   height: 100vh;
+  max-height: fit-content;
   padding-top: 5rem;
   overflow: hidden;
 }
@@ -47,11 +48,9 @@ header {
   margin-top: 3rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding: 4rem 1.5rem 1.5rem 1.5rem;
+  padding: 3rem 1rem 1rem 1rem;
 }
-/* .me img{
-  height: 100%;
-} */
+
 
 /* Scroll down */
 .scroll__down {
