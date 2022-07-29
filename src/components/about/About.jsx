@@ -1,17 +1,17 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me2.jpeg'
-import { RiAwardFill } from 'react-icons/ri'
-import { BsFolder } from 'react-icons/bs'
-import { TbMessageLanguage } from 'react-icons/tb'
+import { MdCode } from 'react-icons/md'
+import { RiTeamFill } from 'react-icons/ri'
+import { BiWorld } from 'react-icons/bi'
 
 
 
 export default function About() {
   return (
     <section id="about">
-      <h5>Get to know</h5>
-      <h2>About me</h2>
+      <h5>Get To Know</h5>
+      <h2>About Me</h2>
       <div className="container about__container">
         <div className="about__me">
           <img src={ME} alt="Me" />
@@ -19,17 +19,17 @@ export default function About() {
         <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
-              <RiAwardFill className='about__icon'/>
+              <MdCode className='about__icon'/>
               <h5>Experience</h5>
               <small>Trainee</small>
             </article>
             <article className='about__card'>
-              <TbMessageLanguage className='about__icon'/>
+              <BiWorld className='about__icon'/>
               <h5>Languages</h5>
               <small>English & Spanish</small>
             </article>
             <article className='about__card'>
-              <BsFolder className='about__icon'/>
+              <RiTeamFill className='about__icon'/>
               <h5>Soft Skills</h5>
               <small>Organized & proactive</small>
             </article>

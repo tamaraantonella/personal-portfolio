@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './nav.css'
 import { BiHome } from 'react-icons/bi'
 import { BiUser } from 'react-icons/bi'
-import { FiBook } from 'react-icons/fi'
+import { HiAcademicCap } from 'react-icons/hi'
 import { MdHomeRepairService } from 'react-icons/md'
 import { MdOutlineMessage } from 'react-icons/md'
 
@@ -13,8 +13,8 @@ const [active, setActive] = useState('#')
     <nav>
       <a href="#top" onClick={() => setActive('#')} className={active==='#' ? 'active': ''} > <BiHome/></a>
       <a href="#about" onClick={() => setActive('#about')} className={active==='#about' ? 'active': ''} > <BiUser/></a>
-      <a href="#experience" onClick={() => setActive('#experience')} className={active==='#experience' ? 'active': ''}> <FiBook/></a>
-      <a href="#projects" onClick={() => setActive('#projects')} className={active==='#projects' ? 'active': 'services' ? 'active': ''}> <MdHomeRepairService/></a>
+      <a href="#experience" onClick={() => setActive('#experience')} className={active==='#experience' ? 'active': ''}> <HiAcademicCap/></a>
+      <a href="#projects" onClick={() => setActive('#projects')} className={active==='#projects' ? 'active': ''}> <MdHomeRepairService/></a>
       <a href="#contact" onClick={() => setActive('#contact')} className={active==='#contact' ? 'active': ''}> <MdOutlineMessage/></a>
     </nav>
   )

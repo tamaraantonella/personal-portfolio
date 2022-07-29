@@ -8,7 +8,7 @@ import IMG3 from '../../assets/img3.png'
 function Projects() {
   return (
     <section id="projects">
-      <h5>Bootcamp projects</h5>
+      <h5>Bootcamp Projects</h5>
       <h2>Projects</h2>
       <div className="container projects__container">
         <article className='portfolio__item'>
