@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.31c9be7a.css",
-    "main.js": "/portfolio-react/static/js/main.2c1815b2.js",
+    "main.css": "/portfolio-react/static/css/main.2623ffa3.css",
+    "main.js": "/portfolio-react/static/js/main.a57b1395.js",
     "static/media/me.png": "/portfolio-react/static/media/me.5b4541952f8c307cc2ce.png",
+    "static/media/img3.png": "/portfolio-react/static/media/img3.a09b5d2f9f109e9573bd.png",
+    "static/media/img1.jpg": "/portfolio-react/static/media/img1.8c15527791fccdc72515.jpg",
+    "static/media/img2.jpg": "/portfolio-react/static/media/img2.35591ea2122ddeadbb1f.jpg",
     "static/media/me2.jpeg": "/portfolio-react/static/media/me2.943ef5c6124e1930a105.jpeg",
     "static/media/Frazzetta_Tamara.pdf": "/portfolio-react/static/media/Frazzetta_Tamara.1340f950aa64da9166f8.pdf",
+    "static/media/bg.svg": "/portfolio-react/static/media/bg.c6407800e1f24d7b63c8.svg",
     "index.html": "/portfolio-react/index.html",
-    "main.31c9be7a.css.map": "/portfolio-react/static/css/main.31c9be7a.css.map",
-    "main.2c1815b2.js.map": "/portfolio-react/static/js/main.2c1815b2.js.map"
+    "main.2623ffa3.css.map": "/portfolio-react/static/css/main.2623ffa3.css.map",
+    "main.a57b1395.js.map": "/portfolio-react/static/js/main.a57b1395.js.map"
   },
   "entrypoints": [
-    "static/css/main.31c9be7a.css",
-    "static/js/main.2c1815b2.js"
+    "static/css/main.2623ffa3.css",
+    "static/js/main.a57b1395.js"
   ]
 }
