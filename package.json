@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://tamaraantonella.github.io/portfolio-react",
+  "homepage": "https://tamarafrazzetta.netlify.app",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
