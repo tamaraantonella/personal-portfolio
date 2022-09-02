@@ -1,8 +1,12 @@
-import React, { useRef } from 'react';
 import './contact.css'
+
+import React, { useRef } from 'react';
+
 import {HiOutlineMail}from'react-icons/hi'
-import {ImWhatsapp}from'react-icons/im'
 import emailjs from '@emailjs/browser';
+
+// import {ImWhatsapp}from'react-icons/im'
+
 
 export default function Contact() {
   const form = useRef();
@@ -25,11 +29,11 @@ export default function Contact() {
             <h5>tamarafrazzetta@gmail.com</h5>
             <a href="mailto:tamarafrazzetta@gmail.com" className='contact__option-icon' target='_blank' rel='noreferrer'>Send an email</a>
           </article>
-          <article className="contact__option">
+          {/* <article className="contact__option">
             <ImWhatsapp/>
             <h4>WhatsApp</h4>
             <a href="https://walink.co/11659b" className='contact__option-icon' target='_blank' rel='noreferrer'>Send a message</a>
-          </article>
+          </article> */}
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" id="" placeholder='Your full name' required/>

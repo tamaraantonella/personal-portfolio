@@ -1,5 +1,5 @@
-import React from 'react'
 import { GiCheckMark } from 'react-icons/gi'
+import React from 'react'
 
 const ExperienceFront = () => {
     return (
@@ -20,7 +20,7 @@ const ExperienceFront = () => {
                 <GiCheckMark className='experience__details-icons'/><h4>Javascript</h4>
             </article>
             <article className='experience__details'>
-                <GiCheckMark className='experience__details-icons'/><h4>Typescript</h4>
+                <GiCheckMark className='experience__details-icons'/><h4>React Native</h4>
             </article>
             <article className='experience__details'>
                 <GiCheckMark className='experience__details-icons'/><h4>Ajax</h4>
