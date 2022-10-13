@@ -1,5 +1,22 @@
 {
   "header":{
-    "hello":"Hello I'm"
+    "hello":"Hello I'm",
+    "downloadCv":"Download CV",
+    "position":"Fullstack Developer",
+    "contact":"Let's talk"
+  },
+  "about":{
+    "intro": "Get To Know",
+    "title": "About Me",
+    "items": {
+      "1": "Experience",
+      "2": "Trainee",
+      "3": "Languages",
+      "4": "English & Spanish",
+      "5": "Soft Skills",
+      "6": "Responsible, proactive and self-motivated."
+    },
+    "text": "Hi! I'm Tamara, I started as a self-taught on platforms such as freeCampCode and SoloLearn, then studied at CoderHouse and Henry and now I'm fullstack developer based in Argentina. I am passionate about working in teams, and my main focus is to get my first job experience.",
+    "contact": "Contact Me!"
   }
 }

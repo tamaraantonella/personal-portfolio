@@ -1,5 +1,22 @@
 {
   "header": {
-    "hello": "Hola soy"
+    "hello": "Hola soy",
+    "downloadCv": "Descargar CV",
+    "position": "Desarrolladora Fullstack",
+    "contact": "Contactame"
+  },
+  "about": {
+    "intro": "Conociendo",
+    "title": "Sobre mí",
+    "items": {
+      "1": "Experiencia",
+      "2": "Trainee",
+      "3": "Idiomas",
+      "4": "Inglés & Español",
+      "5": "Soft Skills",
+      "6": "Responsable, proactiva y automotivada."
+    },
+    "text":"¡Hola! Soy Tamara, comencé como autodidacta en plataformas como freeCampCode y SoloLearn, luego estudié en CoderHouse y Henry y ahora soy desarrolladora fullstack radicada en Argentina. Me apasiona trabajar en equipo, y mi enfoque principal es obtener mi primera experiencia laboral.",
+    "contact":"Contactame"
   }
 }

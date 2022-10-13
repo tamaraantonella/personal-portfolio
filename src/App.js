@@ -11,7 +11,7 @@ import Projects from './components/projects/Projects'
 
 const App = () => {
     return (
-    <>
+    <div className='mx-auto max-w-[1200px]'>
             <Header/>
             <Nav />
             <About/>
@@ -19,7 +19,7 @@ const App = () => {
             <Projects />
             <Contact />
             <Footer />
-    </>
+    </div>
     )
 }
 
