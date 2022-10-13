@@ -1,5 +1,3 @@
-import './projects.css'
-
 import FOODY from '../../assets/FOODY.png'
 import IMG1 from '../../assets/img1.jpg'
 import IMG2 from '../../assets/img2.jpg'
@@ -8,11 +6,16 @@ import React from 'react'
 
 function Projects() {
   return (
-    <section id="projects" className="projects_box">
-      <h5>Bootcamp Projects</h5>
-      <h2>Projects</h2>
-      <div className="container projects__container">
-        <article className="portfolio__item">
+    <section
+      id="projects"
+      className="flex flex-col items-center w-[90%] mx-auto min-h-screen py-8 w-max-[1200px] "
+    >
+      <h5 className={`text-color_light md:text-lg `}>Bootcamp Projects</h5>
+      <h2 className="text-3xl text-center my-3 md:text-5xl md:text-left mb-5">
+        Projects
+      </h2>
+      <div className="grid md:grid-cols-3 gap-3">
+        <article className="bg-color_bg_variant border border-solid border-transparent p-[1.4rem] rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
           <div className="portfolio__item-image">
             <img
               src="https://res.cloudinary.com/dfbxjt69z/image/upload/v1665519582/Screenshot_2022-10-11_at_13-14-34_Mascotapp_xeqn4k.png"
@@ -44,7 +47,7 @@ function Projects() {
             </a>
           </div>
         </article>
-        <article className="portfolio__item">
+        <article className="bg-color_bg_variant border border-solid border-transparent p-[1.4rem] rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
           <div className="portfolio__item-image">
             <img src={FOODY} alt="" />
           </div>
@@ -73,7 +76,7 @@ function Projects() {
             </a>
           </div>
         </article>
-        <article className="portfolio__item">
+        <article className="bg-color_bg_variant border border-solid border-transparent p-[1.4rem] rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
@@ -99,7 +102,7 @@ function Projects() {
             </a>
           </div>
         </article>
-        <article className="portfolio__item">
+        <article className="bg-color_bg_variant border border-solid border-transparent p-[1.4rem] rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
@@ -124,7 +127,7 @@ function Projects() {
             </a>
           </div>
         </article>
-        <article className="portfolio__item">
+        <article className="bg-color_bg_variant border border-solid border-transparent p-[1.4rem] rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
