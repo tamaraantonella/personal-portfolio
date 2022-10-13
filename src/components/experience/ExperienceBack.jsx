@@ -28,6 +28,18 @@ const ExperienceBack = () => {
         <GiCheckMark className="experience__details-icons" />
         <h4>PostgreSQL</h4>
       </article>
+      <article className="flex gap-3 items-center">
+        <GiCheckMark className="experience__details-icons" />
+        <h4>Auth0</h4>
+      </article>
+      <article className="flex gap-3 items-center">
+        <GiCheckMark className="experience__details-icons" />
+        <h4>JWT</h4>
+      </article>
+      <article className="flex gap-3 items-center">
+        <GiCheckMark className="experience__details-icons" />
+        <h4>Typescript</h4>
+      </article>
     </div>
   );
 };
