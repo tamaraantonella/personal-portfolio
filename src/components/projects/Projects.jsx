@@ -5,7 +5,6 @@ import IMG3 from "../../assets/img3.png";
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-
 function Projects() {
   const [t] = useTranslation("global");
   return (
@@ -17,7 +16,7 @@ function Projects() {
       <h2 className="text-3xl text-center my-3 md:text-5xl md:text-left mb-5">
         {t("projects.title")}
       </h2>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
+      <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-2">
         <article className="bg-color_bg_variant border border-solid border-transparent p-[1.4rem] rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
           <div className="rounded-md w-full h-[200px] md:h-[250px]">
             <img
@@ -28,7 +27,7 @@ function Projects() {
           </div>
           <h3 className="font-semibold text-xl mt-3">Mascotapp</h3>
           <h5 className="text-color_light">SPA Bootcamp SoyHenry</h5>
-          <h5 className="text-color_light mb-3">
+          <h5 className="text-color_light mb-3 h-20">
             Tech: Js, Ts, Node.js, ReactJs, Redux, Express, PostgreSQL, Auth0,
             Stripe, Tailwind and Material UI.
           </h5>
@@ -63,7 +62,7 @@ function Projects() {
           <h5 className="text-color_light">
             SPA - recipes -- Bootcamp SoyHenry
           </h5>
-          <h5 className="text-color_light mb-3">
+          <h5 className="text-color_light mb-3 h-20">
             Tech: Javascript, React, Redux, NodeJS, Express, HTML5, CSS3,
             Sequelize y PostgreSQL
           </h5>
@@ -94,13 +93,11 @@ function Projects() {
               alt=""
             />
           </div>
-          <h3 className="font-semibold text-xl mt-3">
-            Huerta del tomate website
-          </h3>
-          <h5 className="text-color_light mb-3">
-            Website HTML, CSS, SASS -- Coderhouse
+          <h3 className="font-semibold text-xl mt-3">Huerta del tomate</h3>
+          <h5 className="text-color_light ">SPA - Coderhouse</h5>
+          <h5 className="text-color_light mb-3 h-20">
+            Tech: Javascript, React, CSS3,
           </h5>
-
           <div className="flex gap-2 mb-3">
             <a
               href="https://github.com/tamaraantonella/pf-huerta-del-tomate"
@@ -129,7 +126,7 @@ function Projects() {
             />
           </div>
           <h3 className="font-semibold text-xl mt-3">Ecommerce shoe box</h3>
-          <h5 className="text-color_light mb-3">
+          <h5 className="text-color_light mb-3 h-20">
             Website HTML, CSS & Js --Coderhouse
           </h5>
           <div className="flex gap-2 mb-3">
@@ -160,7 +157,9 @@ function Projects() {
             />
           </div>
           <h3 className="font-semibold text-xl mt-3">LP Hollistic</h3>
-          <h5 className="text-color_light mb-3">Landing page - HTML & CSS</h5>
+          <h5 className="text-color_light mb-3 h-20">
+            Landing page - HTML & CSS
+          </h5>
           <div className="flex gap-2 mb-3">
             <a
               href="https://github.com/tamaraantonella/adriana_amorelli_holistic"

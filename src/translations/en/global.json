@@ -3,20 +3,21 @@
     "hello": "Hello I'm",
     "downloadCv": "Download CV",
     "position": "Fullstack Developer",
-    "contact": "Let's talk"
+    "contact": "Let's talk",
+    "cv": "../../assets/CV_TAMARA_FRAZZETTA_FULLSTACK_EN.pdf"
   },
   "about": {
     "intro": "Get To Know",
     "title": "About Me",
     "items": {
       "1": "Experience",
-      "2": "Trainee",
+      "2": "Junior",
       "3": "Languages",
       "4": "English & Spanish",
       "5": "Soft Skills",
       "6": "Responsible, proactive and self-motivated."
     },
-    "text": "Hi! I'm Tamara, I started as a self-taught on platforms such as freeCampCode and SoloLearn, then studied at CoderHouse and Henry and now I'm fullstack developer based in Argentina. I am passionate about working in teams, and my main focus is to get my first job experience.",
+    "text": "Hi! I'm Tamara, I love challenges, teamwork, taking initiative and continuous learning. While learning at Henry, I became an expert Googler, I am now able to figure out most problems on my own. I also now know how to learn independently and during our final project I taught myself new technologies very easily. I am intrigued and interested in the world of programming as well as solving in the most practical, understandable and at the same time scalable way, the challenges that  rise when developing a project.",
     "contact": "Contact Me!"
   },
   "skills": {

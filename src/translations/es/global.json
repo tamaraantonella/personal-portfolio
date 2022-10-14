@@ -3,20 +3,21 @@
     "hello": "Hola soy",
     "downloadCv": "Descargar CV",
     "position": "Desarrolladora Fullstack",
-    "contact": "Contactame"
+    "contact": "Contactame",
+    "cv":"../../assets/CV_TAMARA_FRAZZETTA_FULLSTACK_ES.pdf"
   },
   "about": {
     "intro": "Conociendo",
     "title": "Sobre mí",
     "items": {
       "1": "Experiencia",
-      "2": "Trainee",
+      "2": "Junior",
       "3": "Idiomas",
       "4": "Inglés & Español",
       "5": "Soft Skills",
       "6": "Responsable, proactiva y automotivada."
     },
-    "text": "¡Hola! Soy Tamara, comencé como autodidacta en plataformas como freeCampCode y SoloLearn, luego estudié en CoderHouse y Henry y ahora soy desarrolladora fullstack radicada en Argentina. Me apasiona trabajar en equipo, y mi enfoque principal es obtener mi primera experiencia laboral.",
+    "text": "¡Hola! Soy Tamara, comencé como autodidacta en plataformas como freeCampCode y SoloLearn, luego estudié en CoderHouse y Henry y ahora soy desarrolladora fullstack radicada en Argentina. Me apasiona trabajar en equipo, tomar iniciativa y el continuo aprendizaje. Mientras cursaba el bootcamp, me volví experta al googlear lo cual me ayudo muchísimo a poder resolver por mi cuenta, además adquirí la habilidad de aprender de manera independiente, algo que durante el proyecto final tuve que aplicarlo al enseñarme nuevas tecnologías. Me intriga e interesa el mundo de la programación así como resolver de la manera más práctica, entendible y a la vez escalable, los desafíos que surgen a la hora de desarrollar un proyecto. Quisiera trabajar en ambientes donde se apueste por las personas y su crecimiento dentro de la empresa, a nivel profesional y personal.",
     "contact": "Contactame"
   },
   "skills": {
