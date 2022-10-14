@@ -31,8 +31,8 @@
     }
   },
   "contact": {
-    "intro": "Contactame",
-    "title": "¿Tienes un proyecto o oportunidad en mente?",
+    "title": "Contactame",
+    "intro": "¿Tienes un proyecto o oportunidad en mente?",
     "email": "Enviar email",
     "send":"Enviar"
   }
