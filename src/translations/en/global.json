@@ -29,5 +29,11 @@
     "text": {
       "1": "Go To →"
     }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "intro": "My contact info is down here",
+    "email":"Send an email",
+    "send":"Send"
   }
 }

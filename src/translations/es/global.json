@@ -29,5 +29,11 @@
     "text": {
       "1": "Go To →"
     }
+  },
+  "contact": {
+    "intro": "Contactame",
+    "title": "¿Tienes un proyecto o oportunidad en mente?",
+    "email": "Enviar email",
+    "send":"Enviar"
   }
 }
