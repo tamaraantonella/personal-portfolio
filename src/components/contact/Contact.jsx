@@ -1,7 +1,5 @@
 import './contact.css'
-
 import React, { useRef } from 'react';
-
 import {HiOutlineMail}from'react-icons/hi'
 import emailjs from '@emailjs/browser';
 

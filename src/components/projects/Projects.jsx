@@ -3,16 +3,19 @@ import IMG1 from "../../assets/img1.jpg";
 import IMG2 from "../../assets/img2.jpg";
 import IMG3 from "../../assets/img3.png";
 import React from "react";
+import { useTranslation } from "react-i18next";
+
 
 function Projects() {
+  const [t] = useTranslation("global");
   return (
     <section
       id="projects"
       className="flex flex-col items-center w-[90%] mx-auto min-h-screen py-8 w-max-[1200px] "
     >
-      <h5 className={`text-color_light md:text-lg `}>Bootcamp Projects</h5>
+      <h5 className={`text-color_light md:text-lg `}>{t("projects.intro")}</h5>
       <h2 className="text-3xl text-center my-3 md:text-5xl md:text-left mb-5">
-        Projects
+        {t("projects.title")}
       </h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
         <article className="bg-color_bg_variant border border-solid border-transparent p-[1.4rem] rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
@@ -91,7 +94,9 @@ function Projects() {
               alt=""
             />
           </div>
-          <h3 className="font-semibold text-xl mt-3">Huerta del tomate website</h3>
+          <h3 className="font-semibold text-xl mt-3">
+            Huerta del tomate website
+          </h3>
           <h5 className="text-color_light mb-3">
             Website HTML, CSS, SASS -- Coderhouse
           </h5>

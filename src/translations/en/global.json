@@ -22,5 +22,12 @@
   "skills": {
     "intro": "Tech Skills I Have ",
     "title": "My Skills"
+  },
+  "projects": {
+    "intro": "Bootcamp & Courses Projects",
+    "title": "Projects",
+    "text": {
+      "1": "Go To →"
+    }
   }
 }
