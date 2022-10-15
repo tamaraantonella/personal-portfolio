@@ -17,8 +17,8 @@ function Projects() {
         {t("projects.title")}
       </h2>
       <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-2 w-full">
-        <article className="bg-color_bg_variant border border-solid border-transparent p-[1.4rem] rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
-          <div className="rounded-md w-full h-[200px] md:h-[250px]">
+        <article className=" border border-solid border-transparent p-[1.4rem] max-w-[450px] mx-auto rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
+          <div className="rounded-md w-full  h-[200px] md:h-[250px]">
             <img
               className="w-full h-full object-cover object-center transform ease-in-out duration-300 hover:scale-[1.01] rounded-md"
               src="https://res.cloudinary.com/dfbxjt69z/image/upload/v1665519582/Screenshot_2022-10-11_at_13-14-34_Mascotapp_xeqn4k.png"
@@ -50,7 +50,7 @@ function Projects() {
             </a>
           </div>
         </article>
-        <article className="bg-color_bg_variant border border-solid border-transparent p-[1.4rem] rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
+        <article className=" border border-solid border-transparent p-[1.4rem] max-w-[450px] mx-auto rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
           <div className="rounded-md w-full h-[200px] md:h-[250px]">
             <img
               className="w-full h-full object-cover object-center transform ease-in-out duration-300 hover:scale-[1.01] rounded-md"
@@ -85,7 +85,7 @@ function Projects() {
             </a>
           </div>
         </article>
-        <article className="bg-color_bg_variant border border-solid border-transparent p-[1.4rem] rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
+        <article className=" border border-solid border-transparent p-[1.4rem] max-w-[450px] mx-auto rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
           <div className="rounded-md w-full h-[200px] md:h-[250px]">
             <img
               className="w-full h-full object-cover object-center transform ease-in-out duration-300 hover:scale-[1.01] rounded-md"
@@ -117,7 +117,7 @@ function Projects() {
             </a>
           </div>
         </article>
-        <article className="bg-color_bg_variant border border-solid border-transparent p-[1.4rem] rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
+        <article className=" border border-solid border-transparent p-[1.4rem] max-w-[450px] mx-auto rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
           <div className="rounded-md w-full h-[200px] md:h-[250px]">
             <img
               className="w-full h-full object-cover object-center transform ease-in-out duration-300 hover:scale-[1.01] rounded-md"
@@ -148,7 +148,7 @@ function Projects() {
             </a>
           </div>
         </article>
-        <article className="bg-color_bg_variant border border-solid border-transparent p-[1.4rem] rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
+        <article className=" border border-solid border-transparent p-[1.4rem] max-w-[450px] mx-auto rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
           <div className="rounded-md w-full h-[200px] md:h-[250px]">
             <img
               className="w-full h-full object-cover object-center transform ease-in-out duration-300 hover:scale-[1.01] rounded-md"

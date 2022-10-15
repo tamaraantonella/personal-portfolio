@@ -50,13 +50,13 @@ body {
   margin: 0 auto;
 }
 /* media queries */
-@media (max-width: 980px) {
+@media (max-width: 768px) {
   body {
     width: 85%;
   }
 }
 /* mobile */
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   body {
     width: 90%;
   }

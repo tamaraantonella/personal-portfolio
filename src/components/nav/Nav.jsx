@@ -29,7 +29,7 @@ export default function Nav() {
       </button>
 
       <div
-        className={`fixed sm:z-50 sm:w-max sm:h-fit sm:pt-0 sm:rotate-90 sm:flex sm:flex-row sm:bg-transparent  sm:gap-5 sm:top-[50%] sm:translate-x-[50%] sm:right-0 mr-10  ${
+        className={`fixed sm:z-50 sm:w-max sm:h-fit sm:pt-0 sm:py-0 sm:rotate-90 sm:flex sm:flex-row sm:bg-transparent  sm:gap-5 sm:top-[50%] sm:translate-x-[52%] sm:right-0 mr-10  ${
           open === true
             ? "py-8 w-full h-screen gap-8 px-5 flex flex-col pt-20 bg-color_primary z-40"
             : "hidden"
