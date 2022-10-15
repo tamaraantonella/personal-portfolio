@@ -14,7 +14,7 @@ function Experience() {
         {t("skills.title")}
       </h2>
 
-      <div className="grid grid-cols-6 justify-around  gap-3 mt-5 w-full">
+      <div className="grid grid-cols-6 justify-around 2xl:gap-10 gap-3 mt-5 w-full">
         <IconLink
           name="auth0"
           path="https://auth0.com/"

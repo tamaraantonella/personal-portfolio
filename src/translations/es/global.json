@@ -25,7 +25,7 @@
   },
   "skills": {
     "intro": "Skills técnicos",
-    "title": "Mis habilidades"
+    "title": "Habilidades"
   },
   "projects": {
     "intro": "Proyectos de Bootcamp y Cursos",
@@ -36,7 +36,7 @@
   },
   "contact": {
     "title": "Contactame",
-    "intro": "¿Tienes un proyecto o oportunidad en mente?",
+    "intro": "¿Tienes una oportunidad en mente?",
     "email": "Enviar email",
     "send": "Enviar"
   }

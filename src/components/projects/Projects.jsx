@@ -17,7 +17,7 @@ function Projects() {
         {t("projects.title")}
       </h2>
       <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-2 w-full">
-        <article className=" border border-solid border-transparent p-[1.4rem] max-w-[450px] mx-auto rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
+        <article className=" border border-solid border-transparent p-[1.4rem] max-w-[450px] rounded-md transition-all duration-500 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
           <div className="rounded-md w-full  h-[200px] md:h-[250px]">
             <img
               className="w-full h-full object-cover object-center transform ease-in-out duration-300 hover:scale-[1.01] rounded-md"
@@ -42,7 +42,7 @@ function Projects() {
             </a>
             <a
               href="https://mascotapps.vercel.app/"
-              className="border border-solid rounded-md bg-color_primary px-5 py-2 w-max-content block pointer text-color_bg_variant  hover:bg-color_white transition ease-in-out duration-300 hover:text-color_bg hover:border-transparent"
+              className="rounded-md bg-color_primary px-5 py-2 w-max-content block pointer text-black   hover:bg-color_white transition ease-in-out duration-300 hover:text-color_bg hover:border-transparent"
               target="_blank"
               rel="noreferrer"
             >
@@ -50,7 +50,7 @@ function Projects() {
             </a>
           </div>
         </article>
-        <article className=" border border-solid border-transparent p-[1.4rem] max-w-[450px] mx-auto rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
+        <article className=" border border-solid border-transparent p-[1.4rem] max-w-[450px] rounded-md transition-all duration-500 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
           <div className="rounded-md w-full h-[200px] md:h-[250px]">
             <img
               className="w-full h-full object-cover object-center transform ease-in-out duration-300 hover:scale-[1.01] rounded-md"
@@ -77,7 +77,7 @@ function Projects() {
             </a>
             <a
               href="https://foody-app-indol.vercel.app/"
-              className="border border-solid rounded-md bg-color_primary px-5 py-2 w-max-content block pointer text-color_bg_variant  hover:bg-color_white transition ease-in-out duration-300 hover:text-color_bg hover:border-transparent"
+              className="rounded-md bg-color_primary px-5 py-2 w-max-content block pointer text-black   hover:bg-color_white transition ease-in-out duration-300 hover:text-color_bg hover:border-transparent"
               target="_blank"
               rel="noreferrer"
             >
@@ -85,7 +85,7 @@ function Projects() {
             </a>
           </div>
         </article>
-        <article className=" border border-solid border-transparent p-[1.4rem] max-w-[450px] mx-auto rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
+        <article className=" border border-solid border-transparent p-[1.4rem] max-w-[450px] rounded-md transition-all duration-500 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
           <div className="rounded-md w-full h-[200px] md:h-[250px]">
             <img
               className="w-full h-full object-cover object-center transform ease-in-out duration-300 hover:scale-[1.01] rounded-md"
@@ -109,7 +109,7 @@ function Projects() {
             </a>
             <a
               href="https://huertadeltomate.netlify.app/"
-              className="border border-solid rounded-md bg-color_primary px-5 py-2 w-max-content block pointer text-color_bg_variant  hover:bg-color_white transition ease-in-out duration-300 hover:text-color_bg hover:border-transparent"
+              className="rounded-md bg-color_primary px-5 py-2 w-max-content block pointer text-black   hover:bg-color_white transition ease-in-out duration-300 hover:text-color_bg hover:border-transparent"
               target="_blank"
               rel="noreferrer"
             >
@@ -117,7 +117,7 @@ function Projects() {
             </a>
           </div>
         </article>
-        <article className=" border border-solid border-transparent p-[1.4rem] max-w-[450px] mx-auto rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
+        <article className=" border border-solid border-transparent p-[1.4rem] max-w-[450px] rounded-md transition-all duration-500 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
           <div className="rounded-md w-full h-[200px] md:h-[250px]">
             <img
               className="w-full h-full object-cover object-center transform ease-in-out duration-300 hover:scale-[1.01] rounded-md"
@@ -140,7 +140,7 @@ function Projects() {
             </a>
             <a
               href="https://tamaraantonella.github.io/js_coder_house/"
-              className="border border-solid rounded-md bg-color_primary px-5 py-2 w-max-content block pointer text-color_bg_variant  hover:bg-color_white transition ease-in-out duration-300 hover:text-color_bg hover:border-transparent"
+              className="rounded-md bg-color_primary px-5 py-2 w-max-content block pointer text-black   hover:bg-color_white transition ease-in-out duration-300 hover:text-color_bg hover:border-transparent"
               target="_blank"
               rel="noreferrer"
             >
@@ -148,7 +148,7 @@ function Projects() {
             </a>
           </div>
         </article>
-        <article className=" border border-solid border-transparent p-[1.4rem] max-w-[450px] mx-auto rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
+        <article className=" border border-solid border-transparent p-[1.4rem] max-w-[450px] rounded-md transition-all duration-500 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
           <div className="rounded-md w-full h-[200px] md:h-[250px]">
             <img
               className="w-full h-full object-cover object-center transform ease-in-out duration-300 hover:scale-[1.01] rounded-md"
@@ -171,7 +171,7 @@ function Projects() {
             </a>
             <a
               href="https://tamaraantonella.github.io/adriana_amorelli_holistic/"
-              className="border border-solid rounded-md bg-color_primary px-5 py-2 w-max-content block pointer text-color_bg_variant  hover:bg-color_white transition ease-in-out duration-300 hover:text-color_bg hover:border-transparent"
+              className="rounded-md bg-color_primary px-5 py-2 w-max-content block pointer text-black   hover:bg-color_white transition ease-in-out duration-300 hover:text-color_bg hover:border-transparent"
               target="_blank"
               rel="noreferrer"
             >
