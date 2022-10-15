@@ -14,7 +14,7 @@ const Cta = () => {
       </a>
       <a
         href="#contact"
-        className="border border-solid rounded-md bg-color_primary px-5 py-2 w-max-content block pointer text-color_bg_variant  hover:bg-color_white transition ease-in-out duration-300 hover:text-color_bg hover:border-transparent"
+        className="border border-solid rounded-md text-black bg-color_primary px-5 py-2 w-max-content block pointer text-color_bg_variant  hover:bg-color_white transition ease-in-out duration-300 hover:text-color_bg hover:border-transparent"
       >
         {t("header.contact")}
       </a>

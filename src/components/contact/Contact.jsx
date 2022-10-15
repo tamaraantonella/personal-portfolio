@@ -21,7 +21,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="flex flex-col items-center w-[90%] mx-auto min-h-screen py-8 w-max-[1200px] "
+      className="flex flex-col items-center mx-auto min-h-screen py-8 "
     >
       <h5 className={`text-color_light md:text-lg `}>{t("contact.intro")}</h5>
       <h2 className="text-3xl text-center my-3 md:text-5xl md:text-left mb-5">

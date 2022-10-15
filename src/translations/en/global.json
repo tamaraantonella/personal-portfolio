@@ -1,8 +1,11 @@
 {
+  "home": {
+    "home":"Home"
+  },
   "header": {
     "hello": "Hello I'm",
     "downloadCv": "Download CV",
-    "position": "Fullstack Developer",
+    "position": "Jr Fullstack Developer",
     "contact": "Let's talk",
     "cv": "../../assets/CV_TAMARA_FRAZZETTA_FULLSTACK_EN.pdf"
   },
@@ -34,7 +37,7 @@
   "contact": {
     "title": "Contact Me",
     "intro": "My contact info is down here",
-    "email":"Send an email",
-    "send":"Send"
+    "email": "Send an email",
+    "send": "Send"
   }
 }

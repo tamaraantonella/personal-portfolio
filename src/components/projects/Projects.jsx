@@ -10,13 +10,13 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="flex flex-col items-center w-[90%] mx-auto min-h-screen py-8 w-max-[1200px] "
+      className="flex flex-col items-center  mx-auto min-h-screen py-8 w-full  "
     >
       <h5 className={`text-color_light md:text-lg `}>{t("projects.intro")}</h5>
       <h2 className="text-3xl text-center my-3 md:text-5xl md:text-left mb-5">
         {t("projects.title")}
       </h2>
-      <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-2">
+      <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-2 w-full">
         <article className="bg-color_bg_variant border border-solid border-transparent p-[1.4rem] rounded-md transition-all duration-300 flex flex-col w-full hover:border-color_primary_variant hover:bg-transparent">
           <div className="rounded-md w-full h-[200px] md:h-[250px]">
             <img

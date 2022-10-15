@@ -11,7 +11,10 @@ export default function Top() {
     setSelected(lang);
   }
   return (
-    <div className=" absolute top-0 flex w-full px-8 my-3 max-w-[1200px] h-12 items-center justify-end">
+    <div
+      className={`absolute top-0 left-0 m-2 mt-5 sm:right-0 sm:flex sm:w-full sm:px-8 sm:my-3 sm:h-12 sm:items-center sm:justify-end
+        `}
+    >
       <div className="flex items-center">
         <button
           onClick={() => handleClickLanguage("es")}
