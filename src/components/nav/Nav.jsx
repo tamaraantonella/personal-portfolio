@@ -1,9 +1,12 @@
 import React, { useState } from "react";
+import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { FiMenu } from "react-icons/fi";
 import { MdOutlineClose } from "react-icons/md";
 
 export default function Nav() {
+  //eslint-disable-next-line
+
   const [t] = useTranslation("global");
   const [active, setActive] = useState("#");
   const [open, setOpen] = useState(false);
@@ -15,6 +18,27 @@ export default function Nav() {
     setOpen(false);
   }
 
+  useEffect(() => {
+    //eslint-disable-next-line
+    const domContent = () => {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+
+            if (entry.isIntersecting) {
+              setActive(entry.target.id);
+            }
+          });
+        },
+        { threshold: 0.5 }
+      );
+      //Track all sections that have an `id` applied
+      document.querySelectorAll("section[id]").forEach((section) => {
+        observer.observe(section);
+      });
+    };
+    domContent();
+  }, [active]);
   return (
     <>
       <button
@@ -38,7 +62,7 @@ export default function Nav() {
           href="#top"
           onClick={() => handleSelection("#")}
           className={`text-md px-2 inline-block   ${
-            active === "#"
+            active === "#" || active === "top"
               ? ` rounded-md bg-color_primary text-color_bg`
               : ` bg-transparent`
           }`}
@@ -49,7 +73,7 @@ export default function Nav() {
           href="#about"
           onClick={() => handleSelection("#about")}
           className={`text-md px-2 inline-block ${
-            active === "#about"
+            active === "#about" || active === "about"
               ? ` rounded-md bg-color_primary text-color_bg`
               : ` bg-transparent`
           }`}
@@ -60,7 +84,7 @@ export default function Nav() {
           href="#experience"
           onClick={() => handleSelection("#experience")}
           className={`text-md px-2 inline-block  ${
-            active === "#experience"
+            active === "#experience" || active === "experience"
               ? ` rounded-md bg-color_primary text-color_bg`
               : ` bg-transparent`
           }`}
@@ -68,10 +92,10 @@ export default function Nav() {
           {t("skills.title")}
         </a>
         <a
-          href="#projects"
-          onClick={() => handleSelection("#projects")}
+          href="#project"
+          onClick={() => handleSelection("#project")}
           className={`text-md px-2 inline-block ${
-            active === "#projects"
+            (active === "#project" || active === "project")
               ? ` rounded-md bg-color_primary text-color_bg`
               : ` bg-transparent`
           }`}
@@ -82,7 +106,7 @@ export default function Nav() {
           href="#contact"
           onClick={() => handleSelection("#contact")}
           className={`text-md px-2 inline-block ${
-            active === "#contact"
+            active === "#contact" || active === "contact"
               ? ` rounded-md bg-color_primary text-color_bg`
               : ` bg-transparent`
           }`}

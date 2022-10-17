@@ -7,7 +7,7 @@ import Top from "./Top";
 function Header() {
   const [t] = useTranslation("global");
   return (
-    <header className=" min-h-screen max-h-content gap-5 flex flex-col-reverse items-center justify-center md:flex-row mx-auto md:justify-between md:gap-12 md:items-center ">
+    <section id="top" className=" min-h-screen max-h-content gap-5 flex flex-col-reverse items-center justify-center md:flex-row mx-auto md:justify-between md:gap-12 md:items-center ">
       <Top />
       <div className="flex flex-col items-center mt-3 md:mt-8 gap-1 md:gap-1 md:items-start">
         <h1 className="text-3xl text-center my-3 md:text-5xl animate-pulse md:text-left xl:text-7xl">
@@ -30,7 +30,7 @@ function Header() {
           alt=""
         />
       </div>
-    </header>
+    </section>
   );
 }
 

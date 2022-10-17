@@ -5,11 +5,12 @@ import IMG3 from "../../assets/img3.png";
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-function Projects() {
+export default function Contact() {
   const [t] = useTranslation("global");
+
   return (
     <section
-      id="projects"
+      id="project"
       className="flex flex-col items-center  mx-auto min-h-screen py-8 w-full  "
     >
       <h5 className={`text-color_light md:text-lg `}>{t("projects.intro")}</h5>
@@ -183,5 +184,3 @@ function Projects() {
     </section>
   );
 }
-
-export default Projects;
