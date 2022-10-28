@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import IconLink from "./IconLink";
+import IconLink from "../iconLink/IconLink";
 
 function Experience() {
   const [t] = useTranslation("global");
