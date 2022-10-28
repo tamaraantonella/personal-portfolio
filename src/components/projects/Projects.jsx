@@ -38,6 +38,14 @@ export default function Contact() {
           urlImg={FOODY}
         />
         <Project
+          name="Arnica App"
+          details="SPA"
+          tech="Tech: Javascript, React."
+          repo="https://github.com/tamaraantonella/arnica_app"
+          liveDemo="https://arnica.vercel.app/"
+          urlImg="https://res.cloudinary.com/dfbxjt69z/image/upload/v1666992014/Screenshot_2022-10-12_at_12-58-07_%C3%81rnica_Yoga_nrexal.png"
+        />
+        <Project
           name="Huerta del tomate"
           details="SPA"
           tech="Tech: Javascript, React, CSS3."
