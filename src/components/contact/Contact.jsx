@@ -1,8 +1,4 @@
 import React from "react";
-import { HiOutlineMail } from "react-icons/hi";
-import { useTranslation } from "react-i18next";
-import { IoLogoLinkedin } from "react-icons/io";
-import { AiOutlineGithub, AiOutlineTwitter } from "react-icons/ai";
 import IconLink from "../iconLink/IconLink";
 
 export default function Contact() {
