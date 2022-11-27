@@ -17,7 +17,7 @@ const App = () => {
     animate: {
       transition: {
         staggerChildren: 0.2,
-        delayChildren: 0.4,
+        delayChildren: 0.3,
         staggerDirection: 1,
       },
     },
@@ -28,20 +28,7 @@ const App = () => {
 
 
 
-  const btnGroup = {
-    initial: {
-      y: -60,
-      opacity: 0,
-      transition: { duration: 0.6, ease: easing },
-    },
-    animate: {
-      y: 0,
-      opacity: 1,
-      animation: {
-        duration: 0.6, ease: easing
-      }
-    }
-  }
+
   return (
     <motion.div className="mx-auto relative">
       <motion.div style={{ scaleX }} className="progress-bar" />
