@@ -1,7 +1,7 @@
 import React from "react";
 import { About, Header, Experience, Projects, Contact, Footer, Nav, LangSwitch } from "./components";
 import { motion, useScroll, useSpring } from "framer-motion";
-import { easing, stagger, transition } from "./constants/animation";
+import { container, easing, stagger, subtitleAndContent, title, transition } from "./constants/animation";
 
 
 
@@ -19,7 +19,7 @@ const App = () => {
       <LangSwitch easing={easing} />
       <Nav stagger={stagger} />
       <Header stagger={stagger} easing={easing} transition={transition} />
-      <About />
+      <About container={container} subtitleAndContent={subtitleAndContent} title={title} />
       <Experience />
       <Projects />
       <Contact />
