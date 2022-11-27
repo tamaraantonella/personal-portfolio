@@ -5,33 +5,50 @@ import { useTranslation } from "react-i18next";
 
 import { motion } from "framer-motion";
 
-export function Header({ stagger, easing }) {
+export function Header({ stagger, easing, transition }) {
   const [t] = useTranslation("global");
+const fadeInUp = {
+  initial: {
 
+    opacity: 0,
+    transition: {
+      duration: 0.6,
+      ease: easing,
+    },
+  },
+  animate: {
+
+    opacity: 1,
+    transition: {
+      duration: 0.6,
+      delay: 0.5,
+      ease: easing,
+    },
+  },
+};
   return (
     <motion.section
-      initial="initial"
-      animate="animate"
+      initial={{ opacity: 0, scale: 0.4 }}
+      transition={{ duration: 0.3, ease: easing }}
+      animate={{ opacity: 1, scale: 1 }}
       id="top"
       className=" min-h-screen max-h-content gap-5 flex flex-col-reverse items-center justify-center md:flex-row mx-auto md:justify-between md:gap-12 md:items-center ">
-      {/* <motion.div variants={header}>
-
-      <Top />
-      </motion.div> */}
       <motion.div
         className="flex flex-col items-center mt-3 md:mt-8 gap-1 md:gap-1 md:items-start"
-        variants={stagger}>
+        initial='initial' animate='animate'>
         <h1 className="text-3xl text-center my-3 md:text-5xl animate-pulse md:text-left xl:text-7xl">
           Tamara Antonella Frazzetta
         </h1>
-        <div className="flex gap-3 items-center">
+        <motion.div className="flex gap-3 items-center" variants={stagger}>
           <p className="text-color_primary">-</p>
-          <h5 className={`text-color_light md:text-lg`}>
+          <motion.h5
+            className={`text-color_light md:text-lg`}
+            variants={fadeInUp}>
             {t("header.position")}
-          </h5>
+          </motion.h5>
           <p className="text-color_primary">-</p>
-        </div>
-        <HeaderSocial />
+        </motion.div>
+        <HeaderSocial transition={transition} />
         <Cta />
       </motion.div>
       <div>

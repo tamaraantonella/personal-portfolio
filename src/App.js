@@ -22,42 +22,11 @@ const App = () => {
       },
     },
   };
-  const fadeInUp = {
-    initial: {
-      y: 60,
-      opacity: 0,
-      transition: { duration: 0.6, ease: easing },
-    },
-    animate: {
-      y: 0,
-      opacity: 1,
-      transition: { duration: 0.6, ease: easing, delay: 0.5 },
-    },
-  };
-  const transition = { duration: 1.4, ease: [0.6, 0.01, -0.05, 0.9] };
 
-  const lastName = {
-    initial: {
-      y: -20,
-    },
-    animate: {
-      y: 0,
-      transition: {
-        staggerChildren: 0.4,
-        delayChildren: 0.4,
-        staggerDirection: 1,
-      },
-    },
-  };
-  const letter = {
-    initial: {
-      y: 400,
-    },
-    animate: {
-      y: 0,
-      transition: { duration: 1, ...transition },
-    },
-  };
+  const transition = { duration: 1, ease: [0.6, 0.01, -0.05, 0.9] };
+
+
+
 
   const btnGroup = {
     initial: {
@@ -76,10 +45,10 @@ const App = () => {
   return (
     <motion.div className="mx-auto relative">
       <motion.div style={{ scaleX }} className="progress-bar" />
-      <LangSwitch easing={easing}/>
+      <LangSwitch easing={easing} />
       <Nav stagger={stagger} />
-      <Header stagger={stagger} easing={easing} />
-      <About/>
+      <Header stagger={stagger} easing={easing} transition={transition} />
+      <About />
       <Experience />
       <Projects />
       <Contact />

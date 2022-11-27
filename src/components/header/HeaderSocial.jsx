@@ -2,39 +2,65 @@ import React from "react";
 import { AiOutlineGithub } from "react-icons/ai";
 import { IoLogoLinkedin } from "react-icons/io";
 import { AiOutlineTwitter } from "react-icons/ai";
-
-const HeaderSocial = () => {
+import { motion } from "framer-motion";
+const HeaderSocial = ({ transition }) => {
+  const social = {
+    initial: {
+      y: -20,
+    },
+    animate: {
+      y: 0,
+      transition: {
+        delayChildren: 0.1,
+        staggerChildren: 0.04,
+        staggerDirection: 1,
+      },
+    },
+  };
+  const icon = {
+    initial: {
+      y: 300,
+    },
+    animate: {
+      y: 0,
+      transition: { duration: 0.3 },
+    },
+  };
   return (
-    <div className="hidden md:flex items-center w-1/3 justify-around md:justify-start md:gap-5 md:mt-8">
-      <a
+    <motion.div
+      className="hidden md:flex items-center w-1/3 justify-around md:justify-start md:gap-5 md:mt-8"
+      variants={social}
+      initial="initial"
+      animate="animate">
+      <motion.a
+        variants={icon}
         className="text-color_light hover:text-color_white transition-all ease-in-out duration-300 text-2xl"
         href="https://www.linkedin.com/in/tamara-frazzetta/"
         target="_blank"
-        rel="noreferrer"
-      >
+        rel="noreferrer">
         {" "}
         <IoLogoLinkedin />{" "}
-      </a>
-      <a
+      </motion.a>
+      <motion.a
+        variants={icon}
         className="text-color_light hover:text-color_white transition-all ease-in-out duration-300 text-2xl"
         href="https://github.com/tamaraantonella"
         target="_blank"
-        rel="noreferrer"
-      >
+        rel="noreferrer">
         {" "}
         <AiOutlineGithub />{" "}
-      </a>
+      </motion.a>
 
-      <a
+      <motion.a
+        variants={icon}
         className="text-color_light hover:text-color_white transition-all ease-in-out duration-300 text-2xl"
         href="https://twitter.com/TamaraaDev"
         target="_blank"
-        rel="noreferrer"
-      >
+        rel="noreferrer">
         {" "}
         <AiOutlineTwitter />{" "}
-      </a>
-    </div>
+      </motion.a>
+    </motion.div>
   );
 };
 
