@@ -5,20 +5,27 @@ import IMG3 from "../../assets/img3.png";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import Project from "./Project";
+import { TitleSubtitle } from "../title-subtitle/TitleSubtitle";
+import { motion } from "framer-motion";
 
-export function Projects() {
-  const [t] = useTranslation("global");
+export function Projects({ title, subtitleAndContent,container }) {
 
   return (
-    <section
+    <motion.section
       id="project"
       className="flex flex-col items-center  mx-auto min-h-screen py-8 w-full  "
-    >
-      <h5 className={`text-color_light md:text-lg `}>{t("projects.intro")}</h5>
-      <h2 className="text-3xl text-center my-3 md:text-5xl md:text-left mb-5">
-        {t("projects.title")}
-      </h2>
-      <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-2 w-full">
+      variants={container}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true}}>
+      <TitleSubtitle
+        title={title}
+        subtitleAndContent={subtitleAndContent}
+        section="projects"
+      />
+      <motion.div
+        className="grid md:grid-cols-2 xl:grid-cols-3 gap-2 w-full"
+        variants={subtitleAndContent}>
         <Project
           name="Mascotapp"
           details="SPA Bootcamp SoyHenry"
@@ -69,7 +76,7 @@ export function Projects() {
           liveDemo="https://tamaraantonella.github.io/adriana_amorelli_holistic/"
           urlImg={IMG3}
         />
-      </div>
-    </section>
+      </motion.div>
+    </motion.section>
   );
 }
