@@ -15,7 +15,7 @@ const App = () => {
 
   return (
     <>
-      <ParticlesBg />
+    <ParticlesBg />
     <motion.div className="mx-auto relative">
       <motion.div style={{ scaleX }} className="progress-bar" />
       <LangSwitch easing={easing} />
@@ -23,8 +23,8 @@ const App = () => {
       <Header stagger={stagger} easing={easing} transition={transition} />
       <About container={container} subtitleAndContent={subtitleAndContent} title={title} />
       <Experience container={container} subtitleAndContent={subtitleAndContent} title={title} />
-      <Projects />
-      <Contact />
+      <Projects container={container} subtitleAndContent={subtitleAndContent} title={title} />
+      <Contact  />
       <Footer />
     </motion.div>
     </>

@@ -5,9 +5,7 @@ import { TitleSubtitle } from "../title-subtitle/TitleSubtitle";
 import { skills } from "../../constants/skills";
 
 export function Experience({ container, subtitleAndContent, title }) {
-
-  const CLOUD_URL =
-    "https://res.cloudinary.com/dfbxjt69z/image/upload/";
+  const CLOUD_URL = "https://res.cloudinary.com/dfbxjt69z/image/upload/";
 
   return (
     <motion.section
@@ -24,7 +22,7 @@ export function Experience({ container, subtitleAndContent, title }) {
       />
 
       <motion.div
-        className="grid grid-cols-6  max-w-4xl justify-around  gap-3 mt-5 w-full"
+        className="grid grid-cols-4 md:grid-cols-5  max-w-4xl justify-around  gap-3 mt-5 w-full"
         variants={subtitleAndContent}>
         {skills.map((skill) => (
           <IconLink
