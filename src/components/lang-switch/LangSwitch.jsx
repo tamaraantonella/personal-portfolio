@@ -11,7 +11,7 @@ export function LangSwitch({easing, stagger}) {
     i18n.changeLanguage(lang);
     setSelected(lang);
   }
-  const header = {
+  const langSwitch = {
     initial: {
       y: -30,
       opacity: 0,
@@ -33,7 +33,7 @@ export function LangSwitch({easing, stagger}) {
       variants={stagger}
       className={`absolute top-0 left-0 m-2 mt-5 sm:right-0 sm:flex sm:w-full sm:px-8 sm:my-3 sm:h-12 sm:items-center sm:justify-end
         `}>
-      <motion.div className="flex items-center" variants={header}>
+      <motion.div className="flex items-center" variants={langSwitch}>
         <button
           onClick={() => handleClickLanguage("es")}
           className={
