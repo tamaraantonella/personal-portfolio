@@ -23,7 +23,9 @@ export function Experience({ container, subtitleAndContent, title }) {
         section="skills"
       />
 
-      <div className="grid grid-cols-6  max-w-4xl justify-around  gap-3 mt-5 w-full">
+      <motion.div
+        className="grid grid-cols-6  max-w-4xl justify-around  gap-3 mt-5 w-full"
+        variants={subtitleAndContent}>
         {skills.map((skill) => (
           <IconLink
             key={Math.random()}
@@ -32,7 +34,7 @@ export function Experience({ container, subtitleAndContent, title }) {
             name={skill.name}
           />
         ))}
-      </div>
+      </motion.div>
     </motion.section>
   );
 }
