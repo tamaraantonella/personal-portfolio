@@ -3,7 +3,6 @@ import IMG1 from "../../assets/img1.jpg";
 import IMG2 from "../../assets/img2.jpg";
 import IMG3 from "../../assets/img3.png";
 import React from "react";
-import { useTranslation } from "react-i18next";
 import Project from "./Project";
 import { TitleSubtitle } from "../title-subtitle/TitleSubtitle";
 import { motion } from "framer-motion";
