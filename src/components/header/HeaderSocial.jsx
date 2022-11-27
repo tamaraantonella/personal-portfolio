@@ -19,11 +19,11 @@ const HeaderSocial = ({ transition }) => {
   };
   const icon = {
     initial: {
-      y: 300,
+      x: -300,
     },
     animate: {
-      y: 0,
-      transition: { duration: 0.3 },
+      x: 0,
+      transition: { duration: 0.5 },
     },
   };
   return (
