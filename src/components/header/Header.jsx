@@ -36,7 +36,7 @@ const fadeInUp = {
       <motion.div
         className="flex flex-col items-center mt-3 md:mt-8 gap-1 md:gap-1 md:items-start"
         initial='initial' animate='animate'>
-        <h1 className="text-3xl text-center my-3 md:text-5xl animate-pulse md:text-left xl:text-7xl">
+        <h1 className="text-3xl text-center my-3 md:text-5xl  md:text-left xl:text-7xl">
           Tamara Antonella Frazzetta
         </h1>
         <motion.div className="flex gap-3 items-center" variants={stagger}>

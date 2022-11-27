@@ -43,7 +43,7 @@ body {
   background-color: var(--color-bg);
   color: var(--color-white);
   /* background-image: url("../src/assets/bg.svg"); */
-  background-image: url("../src/assets/bg.png");
+  /* background-image: url("../src/assets/bg.png"); */
   /* background-color: #1f1f20; */
 
   line-height: 1.7;
