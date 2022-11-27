@@ -16,15 +16,14 @@ const App = () => {
   return (
     <>
     <ParticlesBg />
-    <motion.div className="mx-auto relative">
+    <motion.div className="sm:mx-auto box-border">
       <motion.div style={{ scaleX }} className="progress-bar" />
-      <LangSwitch easing={easing} />
-      <Nav stagger={stagger} />
+      <Nav stagger={stagger} easing={easing} />
       <Header stagger={stagger} easing={easing} transition={transition} />
       <About container={container} subtitleAndContent={subtitleAndContent} title={title} />
       <Experience container={container} subtitleAndContent={subtitleAndContent} title={title} />
       <Projects container={container} subtitleAndContent={subtitleAndContent} title={title} />
-      <Contact  />
+        <Contact container={container} subtitleAndContent={subtitleAndContent} title={title} />
       <Footer />
     </motion.div>
     </>
