@@ -6,7 +6,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import Project from "./Project";
 
-export default function Contact() {
+export function Projects() {
   const [t] = useTranslation("global");
 
   return (

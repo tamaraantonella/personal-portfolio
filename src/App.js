@@ -1,16 +1,5 @@
 import React from "react";
-//eslint-disable-next-line
-import About from "./components/about/About";
-//eslint-disable-next-line
-import Contact from "./components/contact/Contact";
-import Experience from "./components/experience/Experience";
-
-//eslint-disable-next-line
-import Footer from "./components/footer/Footer";
-import Header from "./components/header/Header";
-import Nav from "./components/nav/Nav";
-//eslint-disable-next-line
-import Projects from "./components/projects/Projects";
+import { About, Header, Experience, Projects, Contact, Footer, Nav } from "./components";
 import { motion, useScroll, useSpring } from "framer-motion";
 
 
@@ -26,7 +15,7 @@ const App = () => {
       <motion.div style={{ scaleX }} className="progress-bar" />
       <Nav />
       <Header />
-      <About />
+      <About/>
       <Experience />
       <Projects />
       <Contact />

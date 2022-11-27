@@ -2,7 +2,7 @@ import React from "react";
 import IconLink from "../iconLink/IconLink";
 import { useTranslation } from "react-i18next";
 
-export default function Contact() {
+export function Contact() {
   const [t] = useTranslation("global");
 
   return (

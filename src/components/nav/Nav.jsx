@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { FiMenu } from "react-icons/fi";
 import { MdOutlineClose } from "react-icons/md";
 
-export default function Nav() {
+export function Nav() {
   //eslint-disable-next-line
 
   const [t] = useTranslation("global");

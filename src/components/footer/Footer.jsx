@@ -1,6 +1,6 @@
 import React from "react";
 
-function Footer() {
+export function Footer() {
   return (
     <footer className="py-3 text-center ">
       <div className="flex  justify-center text-color_primary">
@@ -10,4 +10,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+

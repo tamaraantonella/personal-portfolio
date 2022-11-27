@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import IconLink from "../iconLink/IconLink";
 
-function Experience() {
+export function Experience() {
   const [t] = useTranslation("global");
   return (
     <section
@@ -113,4 +113,4 @@ function Experience() {
   );
 }
 
-export default Experience;
+
