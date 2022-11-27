@@ -3,13 +3,20 @@ import Cta from "./Cta";
 import HeaderSocial from "./HeaderSocial";
 import { useTranslation } from "react-i18next";
 import Top from "./Top";
+import { motion } from "framer-motion";
 
 function Header() {
   const [t] = useTranslation("global");
   return (
-    <section id="top" className=" min-h-screen max-h-content gap-5 flex flex-col-reverse items-center justify-center md:flex-row mx-auto md:justify-between md:gap-12 md:items-center ">
+    <section
+      id="top"
+      className=" min-h-screen max-h-content gap-5 flex flex-col-reverse items-center justify-center md:flex-row mx-auto md:justify-between md:gap-12 md:items-center ">
       <Top />
-      <div className="flex flex-col items-center mt-3 md:mt-8 gap-1 md:gap-1 md:items-start">
+      <motion.div
+        className="flex flex-col items-center mt-3 md:mt-8 gap-1 md:gap-1 md:items-start"
+        animate={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: 50 }}
+        transition={{ duration: 0.4 }}>
         <h1 className="text-3xl text-center my-3 md:text-5xl animate-pulse md:text-left xl:text-7xl">
           Tamara Antonella Frazzetta
         </h1>
@@ -22,7 +29,7 @@ function Header() {
         </div>
         <HeaderSocial />
         <Cta />
-      </div>
+      </motion.div>
       <div>
         <img
           className="w-32 md:w-64 md:block"
