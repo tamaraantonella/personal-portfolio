@@ -7,20 +7,35 @@ import { useMemo } from "react";
 export function ParticlesBg() {
   const options = useMemo(() => {
     return {
+      interactivity: {
+        events: {
+          onClick: {
+            enable: true,
+            mode: "push",
+          },
+        },
+        modes: {
+          push: {
+            quantity: 1,
+          },
+        },
+      },
       particles: {
         move: {
           enable: true,
-          speed: { min: 0.1, max: 0.5 },
+          speed: { min: 0.1, max: 0.3 },
         },
         size: {
           value: { min: 0.5, max: 2 },
         },
-      },
-      backgroundMask: {
-        fullScreen: {
-          enable: true,
-          zIndex: -1,
+        opacity: {
+          value: { min: 0.1, max: 0.4 },
         },
+      },
+
+      fullScreen: {
+        enable: true,
+        zIndex: 0,
       },
     };
   }, []);
@@ -28,5 +43,5 @@ export function ParticlesBg() {
     loadSlim(main);
     loadFull(main);
   }, []);
-  return <Particles  init={particlesInit} options={options}></Particles>;
+  return <Particles init={particlesInit} options={options}></Particles>;
 }
