@@ -3,35 +3,20 @@ import { AiOutlineGithub } from "react-icons/ai";
 import { IoLogoLinkedin } from "react-icons/io";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { motion } from "framer-motion";
-const HeaderSocial = ({ transition }) => {
-  const social = {
+const HeaderSocial = () => {
+  const icon = {
     initial: {
-      y: -20,
+      y: 600,
     },
     animate: {
       y: 0,
-      transition: {
-        delayChildren: 0.1,
-        staggerChildren: 0.04,
-        staggerDirection: 1,
-      },
-    },
-  };
-  const icon = {
-    initial: {
-      x: -300,
-    },
-    animate: {
-      x: 0,
-      transition: { duration: 0.5 },
+      transition: { duration: 0.4 },
     },
   };
   return (
     <motion.div
       className="hidden md:flex items-center w-1/3 justify-around md:justify-start md:gap-5 md:mt-8"
-      variants={social}
-      initial="initial"
-      animate="animate">
+      >
       <motion.a
         variants={icon}
         className="text-color_light hover:text-color_white transition-all ease-in-out duration-300 text-2xl"

@@ -11,6 +11,7 @@ export default function IconLink({ path, icon, name }) {
       },
     },
   };
+  const socialMedia = ["github", "linkedin", "twitter", "gmail"];
   return (
     <motion.a
       href={path}
@@ -19,10 +20,15 @@ export default function IconLink({ path, icon, name }) {
       variants={iconAnimate}
       whileHover="show"
       initial="hidden"
-      className={`flex justify-center pb-3 transition-all ease-in-out duration-500 md:grayscale hover:grayscale-0 cursor-pointer ${
-        name === "Express" && "invert"
-      }`}>
-      <motion.img className="h-10 w-10 md:h-14 md:w-14 " src={icon} alt={name} />
+      className={`flex flex-col items-center justify-center pb-3 transition-all ease-in-out duration-500 md:grayscale hover:grayscale-0 cursor-pointer `}>
+      <motion.img
+        className={`h-10 w-10 md:h-14 md:w-14 ${
+          name === "Express" && "invert"
+        }`}
+        src={icon}
+        alt={name}
+      />
+      <p>{socialMedia.includes(name) ? "" : name }</p>
     </motion.a>
   );
 }
