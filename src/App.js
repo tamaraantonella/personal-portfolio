@@ -16,9 +16,8 @@ const App = () => {
   return (
     <>
       <ParticlesBg />
-      <motion.div className="sm:mx-auto box-border">
+      <motion.div className="sm:mx-auto box-border z-20 ">
         <motion.div style={{ scaleX }} className="progress-bar" />
-
         <Nav stagger={stagger} easing={easing} />
         <Header stagger={stagger} easing={easing} transition={transition} />
         <About container={container} subtitleAndContent={subtitleAndContent} title={title} />

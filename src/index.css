@@ -21,15 +21,7 @@
 /* Css variables */
 :root {
   --color-bg: #2a2a2e;
-  --color-bg-variant: #db9b07;
-  --color-primary: #7961ff;
-  --color-primary-variant: #4d7cff66;
   --color-white: #fff;
-  --color-light: #ffffff99;
-  --container-width-lg: 85%;
-  --container-width-md: 86%;
-  --container-width-sm: 90%;
-  --transition: all 400ms ease;
 }
 html {
   scroll-behavior: smooth;
@@ -70,7 +62,7 @@ body {
   left: 0;
   right: 0;
   height: 5px;
-  background: #f8b823;
+  background: #ffb768;
   transform-origin: 0%;
   z-index: 100;
 }
