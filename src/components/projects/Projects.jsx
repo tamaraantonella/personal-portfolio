@@ -1,14 +1,11 @@
-import FOODY from "../../assets/FOODY.png";
 import IMG1 from "../../assets/img1.jpg";
 import IMG2 from "../../assets/img2.jpg";
-import IMG3 from "../../assets/img3.png";
 import React from "react";
 import Project from "./Project";
 import { TitleSubtitle } from "../title-subtitle/TitleSubtitle";
 import { motion } from "framer-motion";
 
-export function Projects({ title, subtitleAndContent,container }) {
-
+export function Projects({ title, subtitleAndContent, container }) {
   return (
     <motion.section
       id="project"
@@ -16,23 +13,32 @@ export function Projects({ title, subtitleAndContent,container }) {
       variants={container}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: true}}>
+      viewport={{ once: true }}>
       <TitleSubtitle
         title={title}
         subtitleAndContent={subtitleAndContent}
         section="projects"
       />
       <motion.div
-        className="grid md:grid-cols-2 xl:grid-cols-3 gap-2 w-full"
+        className="flex flex-col gap-2 w-full"
         variants={subtitleAndContent}>
+        <Project
+          name="My Cattle Log"
+          details="SPA - Group Project"
+          tech="Tech: Js, Ts, Node.js, ReactJs, Redux, Express, MongoDB, Auth0,
+         Tailwind."
+          repo="https://github.com/RobTangle/My-Cattle-Log"
+          liveDemo="https://my-cattle-log.vercel.app/"
+          urlImg="https://res.cloudinary.com/dfbxjt69z/image/upload/v1670371183/portfolio/2022-12-06_20-52-11_ofewm5.gif"
+        />
         <Project
           name="Mascotapp"
           details="SPA Bootcamp SoyHenry"
           tech="Tech: Js, Ts, Node.js, ReactJs, Redux, Express, PostgreSQL, Auth0,
         Stripe, Tailwind and Material UI."
           repo="https://github.com/laureanomarenco/mascotapps-front"
-          liveDemo="https://mascotapps.vercel.app/"
-          urlImg="https://res.cloudinary.com/dfbxjt69z/image/upload/v1665519582/Screenshot_2022-10-11_at_13-14-34_Mascotapp_xeqn4k.png" //mascotapps.vercel.app/""
+          liveDemo="https://mascotapp.vercel.app/"
+          urlImg="https://res.cloudinary.com/dfbxjt69z/image/upload/v1665519582/Screenshot_2022-10-11_at_13-14-34_Mascotapp_xeqn4k.png"
         />
         <Project
           name="PI-Foody"
@@ -41,7 +47,7 @@ export function Projects({ title, subtitleAndContent,container }) {
             Sequelize y PostgreSQL."
           repo="https://github.com/tamaraantonella/PI-food-tamara"
           liveDemo="https://foody-app-indol.vercel.app/"
-          urlImg={FOODY}
+          urlImg="https://res.cloudinary.com/dfbxjt69z/image/upload/v1670370087/portfolio/2022-12-06_20-19-11_gzn7dt.gif"
         />
         <Project
           name="Arnica App"
@@ -73,7 +79,7 @@ export function Projects({ title, subtitleAndContent,container }) {
           tech="Tech: HTML, CSS & Js"
           repo="https://github.com/tamaraantonella/adriana_amorelli_holistic"
           liveDemo="https://tamaraantonella.github.io/adriana_amorelli_holistic/"
-          urlImg={IMG3}
+          urlImg="https://res.cloudinary.com/dfbxjt69z/image/upload/v1670371459/portfolio/2022-12-06_20-50-49_aup5kf.gif"
         />
       </motion.div>
     </motion.section>

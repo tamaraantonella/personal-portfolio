@@ -52,11 +52,11 @@ const fadeInUp = {
         <Cta />
       </motion.div>
       <div>
-        <img
+        {/* <img
           className="w-32 md:w-64 md:block"
           src="https://res.cloudinary.com/dfbxjt69z/image/upload/v1665695767/profile-pic_6_f28hg1.png"
           alt=""
-        />
+        /> */}
       </div>
     </motion.section>
   );
